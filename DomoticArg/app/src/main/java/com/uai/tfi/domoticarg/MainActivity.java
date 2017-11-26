@@ -159,7 +159,7 @@ public class MainActivity extends AppCompatActivity {
         List<Device> misdeviceslocales = db.getAllDevices();
 
         for (Device cn : misdeviceslocales) {
-            final String onlineID = cn.getOnlineID();
+            String onlineID = cn.getOnlineID();
             if (onlineID.equals(valor)) {
                 return true;
             }
@@ -175,7 +175,7 @@ public class MainActivity extends AppCompatActivity {
         //descomentar la linea que sigue para las pruebas en emulador pc.
         //datos = "1disp1";
 
-        if ((datos != null) && (!existeDispositivo(datos))) {
+        if ((datos != null) && (!existeDispositivo(datos.substring(1, datos.length())))) {
             //saco el primer caracter por que es el codigo de tipo de dispositivo
             //1: 1 luz; 2: 2 luces; 3: cortina; 4: motor ventilador...
             char codigo = datos.charAt(0);

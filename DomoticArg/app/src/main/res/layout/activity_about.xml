@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.uai.tfi.domoticarg.AboutActivity"
+    android:background="@drawable/background"
+    >
+
+    <Button
+        android:id="@+id/btnVolverdeAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        android:layout_margin="10dp"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="447dp"
+        android:background="@drawable/roundbtn"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Acerca de nosotros"
+                android:textAppearance="@android:style/TextAppearance.Holo.Large"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.Holo.Large"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:text="Somos un grupo de estudiantes de la UAI, cursando actualmente el 5to año de la carrera de Ingenieria en Sistemas Informaticos.
+Para contactarnos, por favor verifica debajo los enlaces para encontrarnos en las redes sociales"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/imgFb"
+                    android:layout_width="70dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitCenter"
+                    android:layout_weight="2"
+                    app:srcCompat="@drawable/facebook"
+                    android:background="@drawable/roundbtn"
+                    android:backgroundTint="#003B5998"/>
+
+                <ImageButton
+                    android:id="@+id/imgTwt"
+                    android:layout_width="70dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="2"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/twitter"
+                    android:background="@drawable/roundbtn"
+                    android:backgroundTint="#0055ACEE" />
+
+                <ImageButton
+                    android:id="@+id/imgGp"
+                    android:layout_width="70dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="2"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/gplus"
+                    android:background="@drawable/roundbtn"
+                    android:backgroundTint="#00DC4B3E"/>
+
+                <ImageButton
+                    android:id="@+id/imgMsg"
+                    android:layout_width="70dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="2"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/email"
+                    android:background="@drawable/roundbtn"
+                    android:backgroundTint="#00000000"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

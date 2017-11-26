@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "348067055095",
+    "firebase_url": "https://tfi-domoticarg.firebaseio.com",
+    "project_id": "tfi-domoticarg",
+    "storage_bucket": "tfi-domoticarg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348067055095:android:0370888037609725",
+        "android_client_info": {
+          "package_name": "com.uai.tfi.domoticarg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348067055095-scsd9ns3pl8jo7crf4m1emcb09sqqb1e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uai.tfi.domoticarg",
+            "certificate_hash": "d9fa3390f6b039b90b9f46fcd2aa871eea38b9d5"
+          }
+        },
+        {
+          "client_id": "348067055095-p3p4llp3ff02kvnlg7gtcj5n3fedf3ut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDksHA26eO8nANRPRnkKOipMogf1rPuK10"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348067055095-p3p4llp3ff02kvnlg7gtcj5n3fedf3ut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

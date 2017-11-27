@@ -1,0 +1,195 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TFI - Christian Arce</title>
+    <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
+    <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="content">
+        <div class="container wow fadeInUp delay-03s">
+            <div class="row">
+                <div class="logo text-center">
+                    <h2>TFI - Universidad Abierta Interamericana</h2>
+                    <h3 class="subs-title text-center">Profesor: Costa, Eugenio</h3>
+                    <h3 class="subs-title text-center">Alumno: Arce, Christian</h3>
+                </div>
+                <h2 class="subs-title text-center">Ingrese el código postal para calcular el costo de envío.</h2>
+                <div class="subcription-info text-center">
+                    <form onsubmit="return false;" class="subscribe_form" action="#">
+                        <input type="type" name="name" value="" placeholder="   Código postal" id="txtCodigoPostal" name="email" type="text">
+                        <input id="btnCalcular" class="subscribe" name="email" value="Calcular costo!" type="submit">
+                    </form>
+
+                    <div id="msgError" class="alert alert-danger" style="display:none;">
+                        <strong>ERROR: </strong><span>Indicates a dangerous or potentially negative action.</span>
+                    </div>
+
+                    <p id="loading" style="display:none;" class="sub-p">Calculando...</p>
+                    <h3 id="result" class="subs-title text-center" style="display:none;"></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row bort">
+                <div class="copyright">
+                    2017 © Christian Arce, UAI, Sede Norte
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcWbImA7uZQ8oD9ov7onZcBOsBycw9KPw"
+            type="text/javascript"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            function renderMap() {
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    center: { lat: -34.397, lng: 150.644 }, //todo: hacer esto con los destinos
+                    zoom: 8,
+                    styles: [
+                        { elementType: 'geometry', stylers: [{ color: '#242f3e' }] },
+                        { elementType: 'labels.text.stroke', stylers: [{ color: '#242f3e' }] },
+                        { elementType: 'labels.text.fill', stylers: [{ color: '#746855' }] },
+                        {
+                            featureType: 'administrative.locality',
+                            elementType: 'labels.text.fill',
+                            stylers: [{ color: '#d59563' }]
+                        },
+                        {
+                            featureType: 'poi',
+                            elementType: 'labels.text.fill',
+                            stylers: [{ color: '#d59563' }]
+                        },
+                        {
+                            featureType: 'poi.park',
+                            elementType: 'geometry',
+                            stylers: [{ color: '#263c3f' }]
+                        },
+                        {
+                            featureType: 'poi.park',
+                            elementType: 'labels.text.fill',
+                            stylers: [{ color: '#6b9a76' }]
+                        },
+                        {
+                            featureType: 'road',
+                            elementType: 'geometry',
+                            stylers: [{ color: '#38414e' }]
+                        },
+                        {
+                            featureType: 'road',
+                            elementType: 'geometry.stroke',
+                            stylers: [{ color: '#212a37' }]
+                        },
+                        {
+                            featureType: 'road',
+                            elementType: 'labels.text.fill',
+                            stylers: [{ color: '#9ca5b3' }]
+                        },
+                        {
+                            featureType: 'road.highway',
+                            elementType: 'geometry',
+                            stylers: [{ color: '#746855' }]
+                        },
+                        {
+                            featureType: 'road.highway',
+                            elementType: 'geometry.stroke',
+                            stylers: [{ color: '#1f2835' }]
+                        },
+                        {
+                            featureType: 'road.highway',
+                            elementType: 'labels.text.fill',
+                            stylers: [{ color: '#f3d19c' }]
+                        },
+                        {
+                            featureType: 'transit',
+                            elementType: 'geometry',
+                            stylers: [{ color: '#2f3948' }]
+                        },
+                        {
+                            featureType: 'transit.station',
+                            elementType: 'labels.text.fill',
+                            stylers: [{ color: '#d59563' }]
+                        },
+                        {
+                            featureType: 'water',
+                            elementType: 'geometry',
+                            stylers: [{ color: '#17263c' }]
+                        },
+                        {
+                            featureType: 'water',
+                            elementType: 'labels.text.fill',
+                            stylers: [{ color: '#515c6d' }]
+                        },
+                        {
+                            featureType: 'water',
+                            elementType: 'labels.text.stroke',
+                            stylers: [{ color: '#17263c' }]
+                        }
+                    ]
+                });
+            }
+
+            $("#btnCalcular").bind('click', function () {
+                $("#msgError").hide();
+                $("#result").hide();
+
+                if ($("#txtCodigoPostal").val() == "") {
+                    $("#msgError > span").text("Ingrese un código postal.");
+                    $("#msgError").show();
+                    return;
+                }
+
+                $("#loading").show();
+                $.ajax({
+                    url: '/api/Costo/' + $("#txtCodigoPostal").val(),
+                    type: 'get',
+                    dataType: 'json',
+                    success: function (data) {
+                        if (data == "formatInvalid") {
+                            $("#msgError > span").text("El formato del Código Postal es ínvalido.");
+                            $("#msgError").show();
+                            $("#loading").hide();
+                        }
+                        else if (data.Distancia == "ERROR") {
+                            $("#msgError > span").text("El Código Postal ingresado no está registrado en nuestra base de datos.");
+                            $("#msgError").show();
+                            $("#loading").hide();
+                        }
+                        else {
+                            $("#result").empty();
+
+                            var from = $("<h3>Desde: " + data.Origen + "</h3>");
+                            var to = $("<h3>Destino: " + data.Destino + "</h3>");
+                            var distance = $("<h3>Distancia: " + data.Distancia + "</h3>");
+                            var costo = $("<h3>COSTO: " + data.Costo + "$</h3>");
+
+                            $("#result").append(from);
+                            $("#result").append(to);
+                            $("#result").append(distance);
+                            $("#result").append(costo);
+
+                            $("#result").show();
+                            $("#loading").hide();
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

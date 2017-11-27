@@ -7,8 +7,6 @@ import retrofit2.http.Path;
 
 public interface MyApiEndpointInterface {
     // Request method and URL specified in the annotation
-    // Callback for the parsed response is the last parameter
-
-    @GET("/Costo/id")
+    @GET("Costo/{id}")
     Call<Respuesta> getResponse(@Path("id") int id);
 }

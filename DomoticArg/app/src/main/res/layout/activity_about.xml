@@ -5,18 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.uai.tfi.domoticarg.AboutActivity"
-    android:background="@drawable/background"
+    android:background="#455A64"
     >
-
-    <Button
-        android:id="@+id/btnVolverdeAbout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Volver"
-        android:layout_margin="10dp"
-        tools:layout_editor_absoluteX="280dp"
-        tools:layout_editor_absoluteY="447dp"
-        android:background="@drawable/roundbtn"/>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -24,11 +14,21 @@
         android:orientation="vertical">
 
         <LinearLayout
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
             >
+
+            <Button
+                android:id="@+id/btnVolverdeAbout"
+                android:background = "@drawable/roundbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Volver"
+                tools:layout_editor_absoluteX="280dp"
+                tools:layout_editor_absoluteY="447dp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -39,7 +39,7 @@
                 android:gravity="center_vertical"
                 android:layout_margin="10dp"
                 android:textStyle="bold"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 />
 
             <TextView
@@ -50,7 +50,7 @@
                 android:gravity="center_vertical"
                 android:layout_margin="10dp"
                 android:textAlignment="center"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:textStyle="bold"
                 android:text="Somos un grupo de estudiantes de la UAI, cursando actualmente el 5to año de la carrera de Ingenieria en Sistemas Informaticos.
 Para contactarnos, por favor verifica debajo los enlaces para encontrarnos en las redes sociales"
@@ -103,6 +103,23 @@ Para contactarnos, por favor verifica debajo los enlaces para encontrarnos en la
                     android:background="@drawable/roundbtn"
                     android:backgroundTint="#00000000"/>
 
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btnCosto"
+                    android:background = "@drawable/roundbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:padding="15dp"
+                    android:text="  Costo de Envio  "
+                    />
 
             </LinearLayout>
 

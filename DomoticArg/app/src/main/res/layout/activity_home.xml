@@ -5,25 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.uai.tfi.domoticarg.HomeActivity"
-    android:background="@drawable/background"
+    android:background="#455A64"
     >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:padding="20dp"
         >
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="DomoticArg v2.2"
+            android:text="DomoticArg v2.5"
             android:textAppearance="@android:style/TextAppearance.Holo.Large"
             android:layout_gravity="center_horizontal"
             android:gravity="center_vertical"
             android:textStyle="bold"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             />
 
         <Button
@@ -44,7 +45,7 @@
             android:background = "@drawable/bigbtn"
             android:layout_marginTop="10dp"
             android:layout_weight="2"
-            android:text="Opciones"
+            android:text="Remover Dispositivo"
             android:textAppearance="@android:style/TextAppearance.Holo.Large"
             />
 
@@ -55,7 +56,7 @@
             android:background = "@drawable/bigbtn"
             android:layout_marginTop="10dp"
             android:layout_weight="2"
-            android:text="Nosotros"
+            android:text="Nosotros / Contacto"
             android:textAppearance="@android:style/TextAppearance.Holo.Large"
             />
 

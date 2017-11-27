@@ -3,8 +3,10 @@ package com.uai.tfi.domoticarg;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
@@ -65,19 +67,35 @@ public class OpcionesActivity extends AppCompatActivity {
         myButton.setId(i);
         myButton.setText("Eliminar");
         mytext.setText(nombre);
-        LinearLayout ll = (LinearLayout)findViewById(R.id.granscroll);
-        LinearLayout layout = new LinearLayout(this);
-        layout.setId(10000+i);
-        layout.setOrientation(LinearLayout.HORIZONTAL);
-        layout.setGravity(1);
-        layout.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
+        mytext.setTypeface(null, Typeface.BOLD);
+        mytext.setTextColor(0xFFFFFFFF);
+
+        //busco el Scroll que es el principal contenedor
+        LinearLayout scroll = (LinearLayout)findViewById(R.id.granscroll);
+
+        //creo layout para la linea horizontal
+        LinearLayout layoutancha = new LinearLayout(this);
+        layoutancha.setId(10000+i);
+        layoutancha.setGravity(Gravity.CENTER_VERTICAL);
+        layoutancha.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
+
+        //creo la layout del texto (izq)
+        LinearLayout textoLayout = new LinearLayout(this);
+        textoLayout.setGravity(Gravity.CENTER_VERTICAL);
+        textoLayout.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT, (float) 2.0 ));
+
+        //creo la layout del boton (der)
+        LinearLayout btnLayout = new LinearLayout(this);
+        btnLayout.setGravity(Gravity.RIGHT);
+        btnLayout.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT , (float) 2.0 ));
+
+        // meto las layouts dentro de cada container.
         LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
-        lp.topMargin = 50;
-        lp.rightMargin = 20;
-        layout.addView(mytext, lp);
-        lp.leftMargin = 20;
-        layout.addView(myButton, lp);
-        ll.addView(layout);
+        textoLayout.addView(mytext);
+        btnLayout.addView(myButton);
+        layoutancha.addView(textoLayout);
+        layoutancha.addView(btnLayout);
+        scroll.addView(layoutancha);
 
         myButton.setOnClickListener(new View.OnClickListener() {
             @Override

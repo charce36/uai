@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFI.Envio.Data", "TFI.Envio.Data\TFI.Envio.Data.csproj", "{296E0D77-5404-4C8E-B864-3EA58978F783}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFI.Envio.Services", "TFI.Envio.Services\TFI.Envio.Services.csproj", "{841976DB-077C-4C13-B31B-BEC1CED4F88C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFI.Envio.WebAPI", "TFI.Envio.WebAPI\TFI.Envio.WebAPI.csproj", "{8BFB8C4E-E1EF-4E82-B99C-72923A8B61A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{296E0D77-5404-4C8E-B864-3EA58978F783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{296E0D77-5404-4C8E-B864-3EA58978F783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{296E0D77-5404-4C8E-B864-3EA58978F783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{296E0D77-5404-4C8E-B864-3EA58978F783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{841976DB-077C-4C13-B31B-BEC1CED4F88C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{841976DB-077C-4C13-B31B-BEC1CED4F88C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{841976DB-077C-4C13-B31B-BEC1CED4F88C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{841976DB-077C-4C13-B31B-BEC1CED4F88C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BFB8C4E-E1EF-4E82-B99C-72923A8B61A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BFB8C4E-E1EF-4E82-B99C-72923A8B61A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BFB8C4E-E1EF-4E82-B99C-72923A8B61A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BFB8C4E-E1EF-4E82-B99C-72923A8B61A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

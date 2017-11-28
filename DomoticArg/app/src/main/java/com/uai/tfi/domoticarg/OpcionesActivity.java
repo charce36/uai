@@ -69,6 +69,7 @@ public class OpcionesActivity extends AppCompatActivity {
         mytext.setText(nombre);
         mytext.setTypeface(null, Typeface.BOLD);
         mytext.setTextColor(0xFFFFFFFF);
+        mytext.setTextAppearance(this, android.R.style.TextAppearance_Holo_Medium);
 
         //busco el Scroll que es el principal contenedor
         LinearLayout scroll = (LinearLayout)findViewById(R.id.granscroll);
@@ -77,7 +78,9 @@ public class OpcionesActivity extends AppCompatActivity {
         LinearLayout layoutancha = new LinearLayout(this);
         layoutancha.setId(10000+i);
         layoutancha.setGravity(Gravity.CENTER_VERTICAL);
-        layoutancha.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
+        LinearLayout.LayoutParams parametros = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+        parametros.setMargins(30,10,30,10);
+        layoutancha.setLayoutParams(parametros);
 
         //creo la layout del texto (izq)
         LinearLayout textoLayout = new LinearLayout(this);

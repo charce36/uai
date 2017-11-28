@@ -34,6 +34,7 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 finish();
+                System.exit(0);
             }
         });
 

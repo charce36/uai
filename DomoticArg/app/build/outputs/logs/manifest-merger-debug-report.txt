@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-33:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\793574b1f546f10d863c7af03637bdc7\AndroidManifest.xml:17:1-31:12
 MERGED from [com.google.android.gms:play-services:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-11.4.0.aar\40e45d2cd2541e4248d3d48a5427ad7b\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-cast-framework:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-11.4.0.aar\25063b16c1ffae338cba47df3da78370\AndroidManifest.xml:2:1-9:12
@@ -74,20 +74,20 @@ MERGED from [com.android.support:palette-v7:25.2.0] C:\Users\Diego\.gradle\cache
 MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\93d7e50906699668bbac938f3a0bbb47\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\90c0d71508dd90cc1b69f4d60310ae5f\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\652e26889259e3d839c0149ef95b74fd\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-33:12
 	package
 		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:3:5-37
 		INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-28:12
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-33:12
 		INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-28:12
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-33:12
 		INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:11-69
@@ -124,11 +124,11 @@ MERGED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\Diego\.gradle\cac
 	android:name
 		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:6:22-64
 permission#android.permission.INTERNET
-ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:7:5-62
+ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:8:5-62
 	android:name
-		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:7:17-59
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:8:17-59
 application
-ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:9:5-26:19
+ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:10:5-31:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\793574b1f546f10d863c7af03637bdc7\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\793574b1f546f10d863c7af03637bdc7\AndroidManifest.xml:25:5-29:19
 MERGED from [com.google.android.gms:play-services:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-11.4.0.aar\40e45d2cd2541e4248d3d48a5427ad7b\AndroidManifest.xml:5:5-20
@@ -248,43 +248,49 @@ MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Diego\.gradle\c
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\652e26889259e3d839c0149ef95b74fd\AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\652e26889259e3d839c0149ef95b74fd\AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:12:9-41
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:13:9-41
 	android:roundIcon
-		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:14:9-54
 	android:icon
-		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:12:9-43
 	android:allowBackup
-		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:15:9-40
-activity#com.uai.tfi.domoticarg.HomeActivity
-ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:16:9-22:20
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:16:9-40
+activity#com.uai.tfi.domoticarg.SplashActivity
+ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:17:9-26:20
+	android:theme
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:19:13-47
 	android:name
-		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:16:19-47
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:18:13-43
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:17:13-21:29
+ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:18:17-69
+ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:20:17-77
+ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:20:27-74
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:24:27-74
 activity#com.uai.tfi.domoticarg.MainActivity
-ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:23:9-50
+ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:27:9-50
 	android:name
-		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:23:19-47
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:27:19-47
 activity#com.uai.tfi.domoticarg.AboutActivity
-ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:24:9-51
+ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:28:9-51
 	android:name
-		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:24:19-48
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:28:19-48
 activity#com.uai.tfi.domoticarg.OpcionesActivity
-ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:25:9-63
+ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:29:9-54
 	android:name
-		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:25:19-51
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:29:19-51
+activity#com.uai.tfi.domoticarg.HomeActivity
+ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:30:9-50
+	android:name
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:30:19-47
 uses-sdk
 INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml

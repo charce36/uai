@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-33:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\793574b1f546f10d863c7af03637bdc7\AndroidManifest.xml:17:1-31:12
 MERGED from [com.google.android.gms:play-services:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-11.4.0.aar\40e45d2cd2541e4248d3d48a5427ad7b\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-cast-framework:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-11.4.0.aar\25063b16c1ffae338cba47df3da78370\AndroidManifest.xml:2:1-9:12
@@ -74,20 +74,20 @@ MERGED from [com.android.support:palette-v7:25.2.0] C:\Users\Diego\.gradle\cache
 MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\93d7e50906699668bbac938f3a0bbb47\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\90c0d71508dd90cc1b69f4d60310ae5f\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\652e26889259e3d839c0149ef95b74fd\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-33:12
 	package
 		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:3:5-37
 		INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-33:12
 		INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:1-33:12
 		INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:2:11-69
@@ -95,8 +95,40 @@ uses-permission#android.permission.CAMERA
 ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:5:5-65
 	android:name
 		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:5:22-62
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.4.0.aar\995a9b25d4273b108dde478114c02237\AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.4.0.aar\995a9b25d4273b108dde478114c02237\AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.4.0.aar\244ca7d67ce7d1a818a40463200927ea\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.4.0.aar\244ca7d67ce7d1a818a40463200927ea\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.4.0.aar\613eef758926036daf872d1de73c9279\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.4.0.aar\613eef758926036daf872d1de73c9279\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.4.0.aar\95d001e5e71c78680eeeee82b42ed7c1\AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.4.0.aar\95d001e5e71c78680eeeee82b42ed7c1\AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.0.aar\7d7121bce5eeb014062eacece262f06b\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.0.aar\7d7121bce5eeb014062eacece262f06b\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.0.aar\10d04c0fb06f2109db644ddc6af6a47b\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.0.aar\10d04c0fb06f2109db644ddc6af6a47b\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.0.aar\5b84ccbfe63e83f83d91ecf9ad7f232b\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.0.aar\5b84ccbfe63e83f83d91ecf9ad7f232b\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-crash:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\firebase-crash-11.4.0.aar\f376319a9c24063904ce8cfca0775509\AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\firebase-crash-11.4.0.aar\f376319a9c24063904ce8cfca0775509\AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.4.0.aar\33f69a2d424cda51f9f269ded7622c33\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.4.0.aar\33f69a2d424cda51f9f269ded7622c33\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\1b586ff8962f6845869ef24adc6c062d\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\1b586ff8962f6845869ef24adc6c062d\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.0.aar\9e3f9aaa4e37ea7810684afa3ff40e19\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.0.aar\9e3f9aaa4e37ea7810684afa3ff40e19\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\97c202bf054a78b62839f9efca00414e\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\97c202bf054a78b62839f9efca00414e\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:6:22-64
+permission#android.permission.INTERNET
+ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:8:5-62
+	android:name
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:8:17-59
 application
-ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:7:5-24:19
+ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:10:5-31:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\793574b1f546f10d863c7af03637bdc7\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\793574b1f546f10d863c7af03637bdc7\AndroidManifest.xml:25:5-29:19
 MERGED from [com.google.android.gms:play-services:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-11.4.0.aar\40e45d2cd2541e4248d3d48a5427ad7b\AndroidManifest.xml:5:5-20
@@ -216,43 +248,49 @@ MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Diego\.gradle\c
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\652e26889259e3d839c0149ef95b74fd\AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\652e26889259e3d839c0149ef95b74fd\AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:13:9-41
 	android:roundIcon
-		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:14:9-54
 	android:icon
-		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:12:9-43
 	android:allowBackup
-		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:13:9-40
-activity#com.uai.tfi.domoticarg.HomeActivity
-ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:14:9-20:20
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:16:9-40
+activity#com.uai.tfi.domoticarg.SplashActivity
+ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:17:9-26:20
+	android:theme
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:19:13-47
 	android:name
-		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:14:19-47
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:18:13-43
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:24:27-74
 activity#com.uai.tfi.domoticarg.MainActivity
-ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:21:9-50
+ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:27:9-50
 	android:name
-		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:21:19-47
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:27:19-47
 activity#com.uai.tfi.domoticarg.AboutActivity
-ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:22:9-51
+ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:28:9-51
 	android:name
-		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:22:19-48
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:28:19-48
 activity#com.uai.tfi.domoticarg.OpcionesActivity
-ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:23:9-63
+ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:29:9-54
 	android:name
-		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:23:19-51
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:29:19-51
+activity#com.uai.tfi.domoticarg.HomeActivity
+ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:30:9-50
+	android:name
+		ADDED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml:30:19-47
 uses-sdk
 INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Diego\Desktop\DomoticArg\app\src\main\AndroidManifest.xml
@@ -449,32 +487,6 @@ service#com.google.android.gms.cast.framework.ReconnectionService
 ADDED from [com.google.android.gms:play-services-cast-framework:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-11.4.0.aar\25063b16c1ffae338cba47df3da78370\AndroidManifest.xml:7:9-92
 	android:name
 		ADDED from [com.google.android.gms:play-services-cast-framework:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-11.4.0.aar\25063b16c1ffae338cba47df3da78370\AndroidManifest.xml:7:18-90
-uses-permission#android.permission.INTERNET
-ADDED from [com.google.android.gms:play-services-ads-lite:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.4.0.aar\995a9b25d4273b108dde478114c02237\AndroidManifest.xml:19:5-66
-MERGED from [com.google.android.gms:play-services-analytics:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.4.0.aar\244ca7d67ce7d1a818a40463200927ea\AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-analytics:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.4.0.aar\244ca7d67ce7d1a818a40463200927ea\AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.4.0.aar\613eef758926036daf872d1de73c9279\AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.4.0.aar\613eef758926036daf872d1de73c9279\AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-appinvite:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.4.0.aar\95d001e5e71c78680eeeee82b42ed7c1\AndroidManifest.xml:18:5-66
-MERGED from [com.google.android.gms:play-services-appinvite:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.4.0.aar\95d001e5e71c78680eeeee82b42ed7c1\AndroidManifest.xml:18:5-66
-MERGED from [com.google.android.gms:play-services-gcm:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.0.aar\7d7121bce5eeb014062eacece262f06b\AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-gcm:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.0.aar\7d7121bce5eeb014062eacece262f06b\AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-iid:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.0.aar\10d04c0fb06f2109db644ddc6af6a47b\AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-iid:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.0.aar\10d04c0fb06f2109db644ddc6af6a47b\AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-maps:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.0.aar\5b84ccbfe63e83f83d91ecf9ad7f232b\AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-maps:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.0.aar\5b84ccbfe63e83f83d91ecf9ad7f232b\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-crash:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\firebase-crash-11.4.0.aar\f376319a9c24063904ce8cfca0775509\AndroidManifest.xml:18:5-66
-MERGED from [com.google.firebase:firebase-crash:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\firebase-crash-11.4.0.aar\f376319a9c24063904ce8cfca0775509\AndroidManifest.xml:18:5-66
-MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.4.0.aar\33f69a2d424cda51f9f269ded7622c33\AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.4.0.aar\33f69a2d424cda51f9f269ded7622c33\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\1b586ff8962f6845869ef24adc6c062d\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.0.aar\1b586ff8962f6845869ef24adc6c062d\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.0.aar\9e3f9aaa4e37ea7810684afa3ff40e19\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.0.aar\9e3f9aaa4e37ea7810684afa3ff40e19\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\97c202bf054a78b62839f9efca00414e\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.0.aar\97c202bf054a78b62839f9efca00414e\AndroidManifest.xml:20:5-66
-	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.4.0.aar\995a9b25d4273b108dde478114c02237\AndroidManifest.xml:19:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-ads-lite:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.4.0.aar\995a9b25d4273b108dde478114c02237\AndroidManifest.xml:20:5-78
 MERGED from [com.google.android.gms:play-services-analytics:11.4.0] C:\Users\Diego\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.4.0.aar\244ca7d67ce7d1a818a40463200927ea\AndroidManifest.xml:21:5-78

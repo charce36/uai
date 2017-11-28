@@ -51,7 +51,6 @@
                 android:layout_margin="10dp"
                 android:textAlignment="center"
                 android:textColor="#FFFFFF"
-                android:textStyle="bold"
                 android:text="Somos un grupo de estudiantes de la UAI, cursando actualmente el 5to año de la carrera de Ingenieria en Sistemas Informaticos.
 Para contactarnos, por favor verifica debajo los enlaces para encontrarnos en las redes sociales"
                 />
@@ -120,6 +119,23 @@ Para contactarnos, por favor verifica debajo los enlaces para encontrarnos en la
                     android:padding="15dp"
                     android:text="  Costo de Envio  "
                     />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tbCosto"
+                    android:text=" "
+                    android:layout_margin="5dp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textAppearance="@android:style/TextAppearance.Holo.Large"/>
 
             </LinearLayout>
 

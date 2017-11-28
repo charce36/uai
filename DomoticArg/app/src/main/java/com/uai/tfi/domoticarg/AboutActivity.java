@@ -12,6 +12,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 import com.uai.tfi.domoticarg.rest.MyApiEndpointInterface;
 import com.uai.tfi.domoticarg.rest.Respuesta;
@@ -34,7 +35,6 @@ public class AboutActivity extends AppCompatActivity {
     ImageButton btnFb, btnTwt, btnGp, btnMsg;
     private Context cont = this;
     private String mi_Text = "";
-    private String mi_Costo = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -122,7 +122,8 @@ public class AboutActivity extends AppCompatActivity {
                         try {
                             myNum = Integer.parseInt(mi_Text.toString());
                         } catch(NumberFormatException nfe) {
-                            Alerta("Error de Numero", "Formato no valido de número");
+                            TextView tb = (TextView) findViewById(R.id.tbCosto);
+                            tb.setText("Formato de numero inválido");
                         }
                         if (myNum > 0) {
                             // llamo a la api
@@ -136,17 +137,28 @@ public class AboutActivity extends AppCompatActivity {
                                 public void onResponse(Call<Respuesta> call, Response<Respuesta> response) {
                                     int statusCode = response.code();
                                     Respuesta respuesta = response.body();
-                                    mi_Costo = String.valueOf(respuesta.getCosto());
-                                    if (respuesta.getCosto() > 0) {
-                                        Alerta("Costo", "El costo de su envio es de: " + mi_Costo);
+                                    String mi_Costo = String.valueOf(respuesta.getCosto());
+                                    String mi_Destino = respuesta.getDestino();
+                                    String mi_distancia = respuesta.getDistancia();
+                                    String miTexto = "";
+
+                                    if (mi_Destino.equals("ERROR")){
+                                        miTexto = "Error: El Código Postal ingresado no está registrado en nuestra base de datos.";
                                     } else {
-                                        Alerta ("Costo", "Ha habido un error con el codigo ingresado");
+                                        if (respuesta.getCosto() > 0) {
+                                            miTexto = "El costo de su envio es de: $" + mi_Costo + " llegando a " + mi_Destino + " ( " + mi_distancia + " )";
+                                        } else {
+                                            miTexto = "Ha habido un error con el codigo ingresado";
+                                        }
                                     }
+                                    TextView tb = (TextView) findViewById(R.id.tbCosto);
+                                    tb.setText(miTexto);
                                 }
 
                                 @Override
                                 public void onFailure(Call<Respuesta> call, Throwable t) {
-                                    Alerta ("Costo", "Ha habido un error con el codigo ingresado");
+                                    TextView tb = (TextView) findViewById(R.id.tbCosto);
+                                    tb.setText("Ha habido un error en el codigo ingresado");
                                 }
                             });
                             // proceso devolucion
@@ -166,19 +178,6 @@ public class AboutActivity extends AppCompatActivity {
         });
     }
 
-    private void Alerta(String Titulo, String mensaje) {
-        AlertDialog alertDialog = new AlertDialog.Builder(AboutActivity.this).create();
-        alertDialog.setTitle(Titulo);
-        //siguiente linea comentada por si el usuario va a saber el ID del dispositivo (solo debug por ahora)
-        alertDialog.setMessage(mensaje);
-        alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
-                new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int which) {
-                        dialog.dismiss();
-                    }
-                });
-        alertDialog.show();
-    }
 }
 
 

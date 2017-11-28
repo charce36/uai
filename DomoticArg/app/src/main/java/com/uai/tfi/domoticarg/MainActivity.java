@@ -21,9 +21,13 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import com.google.firebase.database.Query;
+import com.google.firebase.database.ValueEventListener;
 import com.uai.tfi.domoticarg.dal.DatabaseHandler;
 import com.uai.tfi.domoticarg.model.Device;
 
@@ -113,6 +117,7 @@ public class MainActivity extends AppCompatActivity {
 
         mytext.setTypeface(null, Typeface.BOLD);
         mytext.setTextColor(0xFFFFFFFF);
+        mytext.setTextAppearance(this, android.R.style.TextAppearance_Holo_Medium);
 
         //busco el Scroll que es el principal contenedor
         LinearLayout scroll = (LinearLayout)findViewById(R.id.granscroll);
@@ -121,7 +126,9 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout layoutancha = new LinearLayout(this);
         layoutancha.setId(10000+i);
         layoutancha.setGravity(Gravity.CENTER_VERTICAL);
-        layoutancha.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
+        LinearLayout.LayoutParams parametros = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+        parametros.setMargins(20,10,20,10);
+        layoutancha.setLayoutParams(parametros);
 
         //creo la layout del texto (izq)
         LinearLayout textoLayout = new LinearLayout(this);
@@ -140,6 +147,26 @@ public class MainActivity extends AppCompatActivity {
         layoutancha.addView(textoLayout);
         layoutancha.addView(btnLayout);
         scroll.addView(layoutancha);
+
+        //hago un get del valor para poder actualizar los valores de los botones
+        DatabaseReference myRef = database.getReference(webID).child(devID);
+        //hago un get del valor para poder actualizar los valores de los botones
+        myRef.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                int valor = dataSnapshot.getValue(int.class);
+                if (valor == 1) {
+                    myButton.setChecked(true);
+                } else {
+                    myButton.setChecked(false);
+                }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+                //do nothing
+            }
+        });
 
 
         myButton.setOnClickListener(new View.OnClickListener() {
@@ -196,7 +223,8 @@ public class MainActivity extends AppCompatActivity {
             char codigo = datos.charAt(0);
             datos = datos.substring(1, datos.length());
 
-            updateUITextViews(datos);
+            //La siguiente linea se descomenta solo a modo de debug.
+            //updateUITextViews("Agregado!",datos);
 
             // Verifico Validez
 
@@ -237,18 +265,17 @@ public class MainActivity extends AppCompatActivity {
 
         } else {
             if (datos == null) {
-                updateUITextViews("No se ha escaneado nada. No se agrego dispositivo.");
+                updateUITextViews("Error","No se ha escaneado nada. No se agrego dispositivo.");
             } else {
-                updateUITextViews("El codigo ingresado ya existe. No se agrego nada.");
+                updateUITextViews("Error","El codigo ingresado ya existe. No se agrego nada.");
             }
         }
     }
 
     // Alert Box
-    private void updateUITextViews(String scan_result) {
+    private void updateUITextViews(String Titulo, String scan_result) {
         AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
-        alertDialog.setTitle("Agregado el dispositivo!");
-        //siguiente linea comentada por si el usuario va a saber el ID del dispositivo (solo debug por ahora)
+        alertDialog.setTitle(Titulo);
         alertDialog.setMessage(scan_result);
         alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
                 new DialogInterface.OnClickListener() {

@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="DomoticArg v2.5"
+            android:text="DomoticARG"
             android:textAppearance="@android:style/TextAppearance.Holo.Large"
             android:layout_gravity="center_horizontal"
             android:gravity="center_vertical"
@@ -34,7 +34,7 @@
             android:background = "@drawable/bigbtn"
             android:layout_marginTop="10dp"
             android:layout_weight="2"
-            android:text="Dispositivos"
+            android:text="Mis Dispositivos"
             android:textAppearance="@android:style/TextAppearance.Holo.Large"
             />
 
@@ -45,7 +45,7 @@
             android:background = "@drawable/bigbtn"
             android:layout_marginTop="10dp"
             android:layout_weight="2"
-            android:text="Remover Dispositivo"
+            android:text="Desvincular Dispositivo"
             android:textAppearance="@android:style/TextAppearance.Holo.Large"
             />
 
@@ -71,6 +71,16 @@
             android:textAppearance="@android:style/TextAppearance.Holo.Large"
             />
 
-
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="v2.5"
+            android:layout_weight="0.5"
+            android:textAppearance="@android:style/TextAppearance.Holo.Small"
+            android:layout_gravity="right"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

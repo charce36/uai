@@ -4,4 +4,5 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#4040ff</color>
     <color name="background_material_light">#b0b0b0</color>
+    <color name="gray_domoticarg">#455A64</color>
 </resources>
